@@ -1,0 +1,3 @@
+function calculate(){
+  let userInput;
+}
