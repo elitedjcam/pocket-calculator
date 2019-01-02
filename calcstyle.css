@@ -7,3 +7,27 @@ h1 {
 body {
   background-color: maroon;
 }
+
+button {
+  font: 22px "Century Gothic", "Century Gothic", "Apple Gothic", sans-serif;
+  margin: 3px 3px 3px 3px;
+  
+}
+
+button.number {
+  height: 50px;
+  width: 50px;
+  color: black;
+  Background: orange;
+}
+
+button.operator{
+  color: black;
+  height: 50px;
+  width: 50px;
+  background: cyan;
+}
+
+div.buttons {
+  align: center;
+}
