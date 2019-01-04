@@ -6,11 +6,11 @@ h1 {
 
 .output, .result {
   display: block;
-  width: 80%;
-  height: 100px;
+  width: 45%;
+  height: 80px;
+  margin-bottom: 10px;
   padding: 1%;
   border: 0.1em solid black;
-  overflow: scroll;
   font: 50px "Century Gothic", "Century Gothic", "Apple Gothic", sans-serif;
 }
 
@@ -21,13 +21,13 @@ body {
 button {
   font: 22px "Century Gothic", "Century Gothic", "Apple Gothic", sans-serif;
   margin: 3px 3px 3px 3px;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   text-align: center;
 }
 
 button.clear {
-  width: 50%
+  width: 17%
 }
 
 button.number {
