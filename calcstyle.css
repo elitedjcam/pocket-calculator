@@ -4,9 +4,9 @@ h1 {
   color: white;
 }
 
-.output, .result {
+.output {
   display: block;
-  width: 45%;
+  width: 415px;
   height: 80px;
   margin-bottom: 10px;
   padding: 1%;
@@ -27,7 +27,7 @@ button {
 }
 
 button.clear {
-  width: 17%
+  width: 215px
 }
 
 button.number {

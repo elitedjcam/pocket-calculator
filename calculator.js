@@ -1,5 +1,5 @@
 
 function display1() {
-  let div = document.getElementById("output")
+  var div = document.getElementById("output")
   div.innerHTML = "1"
 }
