@@ -65,3 +65,39 @@ function ac() {
     div.innerHTML = 0;
     str = "";
 }
+
+function displayAdd() {
+  var div = document.getElementById("output");
+  str += "+"
+  div.innerHTML = str;
+}
+
+function displaySubtract() {
+  var div = document.getElementById("output");
+  str += "-"
+  div.innerHTML = str;
+}
+
+function displayMult() {
+  var div = document.getElementById("output");
+  str += "*"
+  div.innerHTML = str;
+}
+
+function displayDivide() {
+
+}
+
+function displayLeftParent() {
+
+}
+
+function displayRightParent() {
+
+}
+
+function equalSign (){
+  var div = document.getElementById("output");
+  str = eval(str)
+  div.innerHTML = str;
+}
