@@ -1,55 +1,67 @@
+let str = "";
 
 function display1() {
   var div = document.getElementById("output");
-  div.innerHTML = "1";
+  str += "1"
+  div.innerHTML = str;
 }
 
 function display2() {
   var div = document.getElementById("output");
-  div.innerHTML = "2";
+  str += "2"
+  div.innerHTML = str;
 }
 
 function display3() {
   var div = document.getElementById("output");
-  div.innerHTML = "3";
+  str += "3"
+  div.innerHTML = str;
 }
 
 function display4() {
   var div = document.getElementById("output");
-  div.innerHTML = "4";
+  str += "4"
+  div.innerHTML = str;
 }
 
 function display5() {
   var div = document.getElementById("output");
-  div.innerHTML = "5";
+  str += "5"
+  div.innerHTML = str;
 }
 
 function display6() {
-    var div = document.getElementById("output");
-    div.innerHTML = "6";
+  var div = document.getElementById("output");
+  str += "6"
+  div.innerHTML = str;
 }
 
 function display7() {
     var div = document.getElementById("output");
-    div.innerHTML = "7";
+    str += "7"
+    div.innerHTML = str;
 }
 
 function display8() {
     var div = document.getElementById("output");
-    div.innerHTML = "8";
+    str += "8"
+    div.innerHTML = str;
 }
 
 function display9() {
     var div = document.getElementById("output");
-    div.innerHTML = "9";
+    str += "9"
+    div.innerHTML = str;
 }
 
 function display0() {
     var div = document.getElementById("output");
-    div.innerHTML = "0";
+    str += "0"
+    div.innerHTML = str;
 }
 
-function clear() {
-  var div = document.getElementById("output");
-  div.innerHTML = "&nbsp";
+function ac() {
+    var div = document.getElementById("output");
+    div.innerHTML = 0;
+    str = "";
 }
