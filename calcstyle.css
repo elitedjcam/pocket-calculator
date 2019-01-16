@@ -10,7 +10,7 @@ h1 {
   height: 80px;
   margin-bottom: 10px;
   padding: 1%;
-  border: 0.1em solid black;
+  border: 5px solid black;
 }
 
 #output {
@@ -20,11 +20,12 @@ h1 {
 }
 
 body {
-  background-color: maroon;
+  background-color: #009688;
 }
 
 p {
   color: white;
+  margin: 20px;
 }
 
 button {
@@ -55,4 +56,14 @@ button.equals {
 
 div.buttons {
   text-align: center;
+}
+
+button.number:hover {
+  background: black;
+  color: white;
+}
+
+button.operator:hover{
+  color: black;
+  background: grey;
 }

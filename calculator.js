@@ -170,6 +170,13 @@ function displayRightParent() {
   stat = 0;
 }
 
+function displaySquare() {
+  var div = document.getElementById("output");
+  str += "**"
+  div.innerHTML = str;
+  stat = 0;
+}
+
 function displayDecimal() {
   var div = document.getElementById("output");
   str += "."
