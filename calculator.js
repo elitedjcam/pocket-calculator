@@ -156,20 +156,6 @@ function displayDivide() {
   stat = 0;
 }
 
-function displayLeftParent() {
-  var div = document.getElementById("output");
-  str += "("
-  div.innerHTML = str;
-  stat = 0;
-}
-
-function displayRightParent() {
-  var div = document.getElementById("output");
-  str += ")"
-  div.innerHTML = str;
-  stat = 0;
-}
-
 function displaySquare() {
   var div = document.getElementById("output");
   str += "**"
@@ -184,9 +170,29 @@ function displayDecimal() {
   stat = 0;
 }
 
+function perCentage() {
+  var div = document.getElementById("output");
+  str = Number(str) * (0.01)
+  div.innerHTML = str;
+  stat = 0;
+}
+
+function negatePositive() {
+  var div = document.getElementById("output");
+  str = Number(str) * (-1)
+  div.innerHTML = str;
+  stat = 0;
+}
+
 function equalSign (){
   var div = document.getElementById("output");
   str = eval(str)
-  div.innerHTML = str;
+  div.innerHTML = Number(str).toLocaleString();
+  if (Number(str) > 999999999 || Number(str) < 0.000000001) {
+    div.innerHTML = Number(str).toExponential();
+  }
   stat = 1;
+  if (str == "NaN") {
+    str = "Error"
+  }
 }

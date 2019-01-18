@@ -6,8 +6,8 @@ h1 {
 
 .output {
   display: block;
-  width: 415px;
-  height: 80px;
+  width: 550px;
+  height: 70px;
   margin-bottom: 10px;
   padding: 1%;
   border: 5px solid black;
@@ -17,6 +17,7 @@ h1 {
   font: 50px "Century Gothic", "Century Gothic", "Apple Gothic", sans-serif;
   text-align: right;
   margin-top: 50px;
+  color: white;
 }
 
 body {
@@ -34,10 +35,6 @@ button {
   height: 80px;
   width: 80px;
   text-align: center;
-}
-
-button.clear {
-  width: 445px
 }
 
 button.number {
